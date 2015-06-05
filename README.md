@@ -9,10 +9,11 @@ What's wrong with it?
 =====================
 
 It's currently functional (and being used!), but still has a few major issues:
- [ ] there is no interface/API for managing issuers. See below for instructions on setting one up manually.
- [ ] it uses standard JWT fields ('iss', 'sub', 'exp'..) instead of the random ones the Auth plugin expects, so your JWTs will need to have a bunch of duplicated claims to appease both sides
- [ ] the permissions model follows [what's vaguely documented](http://docs.annotatorjs.org/en/v1.2.x/plugins/permissions.html), which doesn't seem to match up with what the standard Permissions plugin actually does
- [ ] search is pretty basic; only exact matches are supported
+
+  - [ ] there is no interface/API for managing issuers. See below for instructions on setting one up manually.
+  - [ ] it uses standard JWT fields ('iss', 'sub', 'exp'..) instead of the random ones the Auth plugin expects, so your JWTs will need to have a bunch of duplicated claims to appease both sides
+  - [ ] the permissions model follows [what's vaguely documented](http://docs.annotatorjs.org/en/v1.2.x/plugins/permissions.html), which doesn't seem to match up with what the standard Permissions plugin actually does
+  - [ ] search is pretty basic; only exact matches are supported
 
 Also, CORS needs to be configured manually at the servlet level.
 
