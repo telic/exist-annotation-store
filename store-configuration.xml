@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<store-configuration>
+    <site-id/>
+    <jwt-header>x-annotator-auth-token</jwt-header>
+    <version>v0.1</version>
+</store-configuration>

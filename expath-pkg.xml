@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://expath.org/ns/pkg" spec="1.0" name="http://max.terpstra.ca/ns/exist-annotation-store" abbrev="annotations" version="0.1">
+    <title>Annotator annotations store</title>
+    <dependency package="http://max.terpstra.ca/ns/exist-jwt" version="0.1"/>
+    <dependency package="http://xqilla.sourceforge.net/pkg/xqjson" version="0.1.6"/>
+</package>
